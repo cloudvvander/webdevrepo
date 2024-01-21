@@ -2,6 +2,7 @@
     position: relative;
     margin-left:  10%;
     margin-right: 10%;
+    width: 100%;
 }
 .white{
     border: 1px solid black;
@@ -33,19 +34,27 @@
     top: 0px;
     left: 0px; 
     padding: 10px;
-    margin: 0px;
+    margin: 20px 0;
     width: 100%;
     background-color:lightyellow;
     text-align: center; 
-    z-index: 10;
+    z-index: 1;
     font-family: 'CactronRegular';
     font-weight: normal;
     font-style: normal;
+    background-color: aqua;
    }
    body {
     background-image:url("https://img.freepik.com/premium-photo/brown-wood-background-with-abstract-pattern-surface-natural-wooden-material_79161-80.jpg?w=996");
+    
    }
    img {
     margin-left: 5px;
     margin-top:10px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #footer img {
+        margin: 0 5px;
     }
