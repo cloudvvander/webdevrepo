@@ -3,15 +3,16 @@
     margin-left:  10%;
     margin-right: 10%;
     width: 100%;
-}
-.white{
+    float: left;
+    }
+ .white{
     border: 1px solid black;
     width: 10%;
     height: 60px;
     background-color: white;
     float: left;
    }   
-   .black{
+  .black{
     border: 1px solid black;
     width: 10%;
     height: 60px;
@@ -21,9 +22,13 @@
    #footer {
     border: solid 1px;
     padding: 10px;
-    margin: 10px;
-   }
+    margin: 50px;
+    background-color: deeppink;
+    text-align: center;
+    }
    #container {
+    margin: 20% auto;
+    width: 80%;
     margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
@@ -36,9 +41,8 @@
     padding: 10px;
     margin: 20px 0;
     width: 100%;
-    background-color:lightyellow;
     text-align: center; 
-    z-index: 1;
+    z-index: 10;
     font-family: 'CactronRegular';
     font-weight: normal;
     font-style: normal;
@@ -46,15 +50,14 @@
    }
    body {
     background-image:url("https://img.freepik.com/premium-photo/brown-wood-background-with-abstract-pattern-surface-natural-wooden-material_79161-80.jpg?w=996");
-    
    }
    img {
     margin-left: 5px;
-    margin-top:10px;
-    }
-    #footer {
-        text-align: center;
+    margin-top: 20px;
     }
     #footer img {
-        margin: 0 5px;
+        margin: 0 15px;
+    }
+    #footer p {
+        margin: 0;
     }
