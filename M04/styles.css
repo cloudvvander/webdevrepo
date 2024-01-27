@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: url(/Background_Image/mybackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+    #nav, #footer {
+        background-color: deepskyblue;
+    }
+    #feature {
+        background-color: green;
+        background-image: url(/feature_img/pngtree-yellow-butterfly-cartoon-illustration-png-image_4758792-removebg-preview.png);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        
+    }
+    .column1 {
+        background-color: yellow;
+    }
+    .column2 {
+        background-color: greenyellow;
+        ;
+    }
+    .column3 {
+        background-color: aqua;
+    }
+    #header h1 {
+        font-family: 'MinecrafterAltRegular';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        color: #2B1700;
+    }
+    #nav a {
+        color: white;
+    }
+    #footer p {
+        color: white;
+    }
