@@ -25,9 +25,11 @@
     margin: 50px;
     background-color: deeppink;
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
     }
    #container {
-    margin: 20% auto;
+    text-align: center;
     width: 80%;
     margin-top: 20%;
     margin-left: 10%;
