@@ -1,1 +1,24 @@
+body {
+    background-color: #fffaf0;
+}
+nav {
+    border-top: 1px solid #ccc;
+    padding: 10px 20px;
+}
+video-banner {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+h1, h2, h3 {
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, ul {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
+}
 
